@@ -26,6 +26,7 @@ $ hexo s
 https://hexo.io/themes/
 
 #### next 主题有三种选择, 根目录/themes/next/_congig.yml 文件中修改
+http://theme-next.iissnan.com/getting-started.html#theme-settings
 
 Muse - 默认 Scheme，这是 NexT 最初的版本，黑白主调，大量留白
 Mist - Muse 的紧凑版本，整洁有序的单栏外观
