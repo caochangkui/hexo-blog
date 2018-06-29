@@ -1,7 +1,7 @@
 ---
 title: JS跨浏览器的事件处理
 categories: JavaScript
-tags: JavaScript
+tags: [JavaScript, 浏览器兼容性处理]
 ---
 
 JS中，事件是指用户或浏览器自身执行的某种动作。如click(点击事件)、mouse***(鼠标事件)。事件流是指页面中接收事件的顺序,也可理解为事件在页面中传播的顺序。
