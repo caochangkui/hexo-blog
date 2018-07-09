@@ -4,7 +4,7 @@ categories: Vue
 tags: [Vue, 移动端]
 ---
 
-基于Vue + Vuex + Vue-router + Webpack 2.0打造微信界面，实现了微信聊天、搜索、点赞、通讯录（快速导航）、个人中心、模拟对话、朋友圈、设置等功能。
+ &nbsp; &nbsp; &nbsp; &nbsp;基于Vue + Vuex + Vue-router + Webpack 2.0打造微信界面，实现了微信聊天、搜索、点赞、通讯录（快速导航）、个人中心、模拟对话、朋友圈、设置等功能。
 
 <!-- more -->
 ## 一、项目简介
@@ -13,12 +13,12 @@ tags: [Vue, 移动端]
 
 ## 二、项目预览 （请在chrome手机模式下打开）
 
-[点击这里预览项目](https://caochangkui.github.io/wechat-by-cck/index.html)
+[点击这里预览项目](https://caochangkui.github.io/MyItems/wechat-by-cck/index.html)
 
 
 ### 移动端扫描下方二维码可直接打开
 
-![](http://images.cnblogs.com/cnblogs_com/cckui/1069317/o_code.png)
+![](http://images.cnblogs.com/cnblogs_com/cckui/1071419/o_1530259424.png)
 
 
 
