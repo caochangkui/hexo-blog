@@ -4,7 +4,7 @@ categories: HTML
 tags: form表单
 ---
 
- &nbsp; &nbsp; &nbsp; &nbsp;在提交 from 表单时，下面的 input 无法正常提交给后台， 发现，如果input的字段设为disabled，该表单是无法提交的。
+在提交 from 表单时，下面的 input 无法正常提交给后台， 发现，如果input的字段设为disabled，该表单是无法提交的。
 
 <!-- more -->
 

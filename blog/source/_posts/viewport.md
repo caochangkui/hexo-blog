@@ -4,7 +4,7 @@ categories: CSS
 tags: [CSS, JavaScript, jQuery]
 ---
 
- &nbsp; &nbsp; &nbsp; &nbsp;原生 JavaScript 和 jQuery 获取屏幕视口宽度及元素尺寸的方法：
+原生 JavaScript 和 jQuery 获取屏幕视口宽度及元素尺寸的方法：
 
 <!-- more -->
 

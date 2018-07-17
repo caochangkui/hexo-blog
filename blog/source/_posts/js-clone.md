@@ -3,7 +3,7 @@ title: JavaScript浅拷贝和深拷贝
 categories: JavaScript
 tags: JavaScript
 ---
- &nbsp; &nbsp; &nbsp; &nbsp;在JavaScript中，以对象为例，浅拷贝只会复制对象的第一层数据；深拷贝不仅仅会复制第一层的数据，如果里面还有对象，会继续进行复制，直到复制到全是基本数据类型为止。
+在JavaScript中，以对象为例，浅拷贝只会复制对象的第一层数据；深拷贝不仅仅会复制第一层的数据，如果里面还有对象，会继续进行复制，直到复制到全是基本数据类型为止。
 
 
 <!-- more -->

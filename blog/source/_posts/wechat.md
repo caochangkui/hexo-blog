@@ -4,7 +4,7 @@ categories: Vue
 tags: [Vue, 移动端]
 ---
 
- &nbsp; &nbsp; &nbsp; &nbsp;基于Vue + Vuex + Vue-router + Webpack 2.0打造微信界面，实现了微信聊天、搜索、点赞、通讯录（快速导航）、个人中心、模拟对话、朋友圈、设置等功能。
+基于Vue + Vuex + Vue-router + Webpack 2.0打造微信界面，实现了微信聊天、搜索、点赞、通讯录（快速导航）、个人中心、模拟对话、朋友圈、设置等功能。
 
 <!-- more -->
 ## 一、项目简介

@@ -4,7 +4,7 @@ categories: ECMAScript6
 tags: [ES6, 箭头函数]
 ---
 
- &nbsp; &nbsp; &nbsp; &nbsp;箭头函数表达式的语法比函数表达式更短，并且没有自己的this，arguments，super或 new.target。
+箭头函数表达式的语法比函数表达式更短，并且没有自己的this，arguments，super或 new.target。
 
 <!-- more -->
 ## 箭头函数基本语法
