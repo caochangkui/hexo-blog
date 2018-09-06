@@ -1,5 +1,5 @@
 ---
-title: 修改 input[type="radio"] 和 input[type="checkbox"] 的默认样式
+title: 定制 input[type="radio"] 和 input[type="checkbox"] 样式
 categories: CSS
 tags: [css, input]
 ---

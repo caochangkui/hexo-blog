@@ -39,7 +39,7 @@ tags: [移动端, rem]
 其中element为存放弹出内容的外围div,test为弹出内容，position为弹出框在页面中的位置。
 ```
 function showToast(element, test, position) {
-    element.html(`<p class="error-content">${test}</p>`);
+    element.html('<p class="error-content">' + test + '</p>');
     element.stop(true, true).animate({
         bottom: position,
         opacity: '1'
@@ -84,6 +84,23 @@ function showToast(element, test, position) {
     text-align: center;
 }
 ```
+
+## 华为自带浏览器不支持 es6
+
+真机测试时，发现在华为手机自带浏览器中，某些点击事件失效，经逐行排查，发现是 es6 的问题，所以：
+经过此网站 http://ruanyf.github.io/es-checker/index.cn.html 检测后，得出手机端不同浏览器对es6的支持：
+
+1. 华为浏览器  11%
+2. UC浏览器  88%
+3. QQ浏览器  88%
+4. 微信内置浏览器 90%
+5. 钉钉内置浏览器  26%
+
+所以，华为浏览器真的坑！
+
+可使用如下网站将 es6 转为 es5 :
+https://babeljs.io/repl/#?babili=false&browsers=&build=&builtIns=false&spec=false&loose=false&code_lz=Q&debug=false&forceAllTransforms=false&shippedProposals=false&circleciRepo=&evaluate=true&fileSize=false&timeTravel=false&sourceType=module&lineWrap=false&presets=es2015%2Creact%2Cstage-2&prettier=false&targets=&version=6.26.0&envVersion=
+
 
 ## fixed 定位缺陷
 
@@ -161,6 +178,23 @@ textarea::-webkit-input-placeholder {
 }
 ```
 
+## margin-bottom 在苹果手机上无效
+
+
+当底部有固定导航栏或固定按钮时，主页面会使用margin-bottom或者padding-bottom ， 但是这么做在苹果手机上无法生效，会导致页面无法滑动到底部。
+
+解决办法：在 body 下面添加一个空的 div
+
+```
+<div class="margin-bottom-100"></div>
+```
+```
+div.margin-bottom-100 {
+    height: 100px;
+}
+
+```
+
 ## 1px 像素边框的问题
 
 [参考这个](https://caochangkui.github.io/2018/06/28/1px-css/)
@@ -196,6 +230,6 @@ a {color: #25a4bb;text-decoration: none;}
 
 ```
 
-未完。。。
+## 未完。。。
 
 
