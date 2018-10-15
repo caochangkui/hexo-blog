@@ -16,7 +16,7 @@ tags: css
 <html>
 
 <head>
-    <title>水波背景</title>
+    <title>banner 跟随鼠标呈现视差效果</title>
     <meta charset="utf-8" />
     <style>
         * {
